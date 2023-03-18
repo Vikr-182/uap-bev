@@ -20,6 +20,8 @@ Arun Kumar Singh<sup>2</sup>, K. Madhava Krishna<sup>1</sup></p>
 
 ## Dealing with Uncertainty - Cost-Volume Approaches
 
+![uncertain3](/README/imgs/uncertain3.png)
+
 
 
 ## Existing Works (Batch Optimization in Planning)

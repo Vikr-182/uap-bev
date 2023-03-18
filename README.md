@@ -33,19 +33,44 @@ Arun Kumar Singh<sup>2</sup>, K. Madhava Krishna<sup>1</sup></p>
 ## We propose …. UAP-BEV
 ![proposal1](/README/imgs/proposal1.png)
 ![proposal2](/README/imgs/proposal2.png)
-![proposal3](/README/imgs/proposal3.png)
+
 
 
 
 ## Part 1: Augmenting Uncertainty into Distance Estimates
 ![Estimate](/README/imgs/estimate.png)
 
+## Part 2: Efficient Batch Optimization with Constrained Projection
+![proposal3](/README/imgs/proposal3.png)
+![proposal4](/README/imgs/proposal4.png)
+![proposal6](/README/imgs/proposal6.png)
+
+## Scenarios Simulated
+
+
+
+## Results
+
+![result](/README/imgs/results.png)
+
+## Longitudinal Barrier Ablation
+![lba](/README/imgs/lba.png)
+
+## CEM Analysis
+![cem](/README/imgs/CEM.png)
+
+**a.** **The histogram of constraint violation functions for each set in the elite set. At the start, multiple samples are spread out on non-zero values, complete convergence is achieved and at Iteration 10, all samples have values 0.**  
+  
+  
+**b.** **Convergence of normalized costs with trace of covariance, signifying the samples are pushed towards good regions.**  
+
+
+
 
 
 
 ## Existing Works (Batch Optimization in Planning)
 
-![Tables](/README/imgs/table.png)
 
 
 
@@ -66,6 +91,21 @@ Arun Kumar Singh<sup>2</sup>, K. Madhava Krishna<sup>1</sup></p>
 | CCO-VOXEL | Use RGBD Cameras to create ESDF over Static Voxel grids. |
 | Urbanfly(Closest to our work)| Use RGB + VINS-Mono pipeline to create cuboids over Static Voxel grids. Use 4 complex plane parameters to model uncertainty (height, width, rotation, yaw).|
 |UoTartu (NeurIPS Workshop 2022)  (Closest to our work)| Calibration (post processing) expensive and requires . Model different types of uncertainty -object center, object shape, trajectories and requires pixel-level and object-level calibration. Does not have a planning methodology over it neither can capture noisy GT annotations. |
+
+
+## Sources of Aleatoric Uncertainty
+- Noise in RGB Images
+- Noise in Intrinsics, error in GPS.
+- Noisy BEV annotations
+
+## Next Tasks
+- Setup SIM for Cutin, Overtaking at straight, Overtaking at curved, Abrupt Stopping. Setup perspective, topdown cam.
+- Setup Network. Visualize predictions on perspective, topdown cam.
+- Get Future mIoU
+- Integrate with MMD+RKHS, Show qualitative results.
+
+
+
 
 
 

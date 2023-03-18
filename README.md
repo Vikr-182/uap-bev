@@ -24,6 +24,20 @@ Arun Kumar Singh<sup>2</sup>, K. Madhava Krishna<sup>1</sup></p>
 - Network predicts a Spatio-temporal Cost-Map.
 - Trajectories indexed into the Cost Volume to choose the best trajectory.
 
+## Dealing with Uncertainty - Parametric Assumption
+![uncertain4](/README/imgs/uncertain4.png)
+- Assumes shape of underlying distribution 
+- Can lead to conservative behaviour
+- Does not handle Noisy Annotations
+- 
+### We propose …. UAP-BEV
+![proposal1](/README/imgs/proposal1.png)
+![proposal2](/README/imgs/proposal2.png)
+![proposal3](/README/imgs/proposal3.png)
+
+
+
+
 
 
 

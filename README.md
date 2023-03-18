@@ -30,13 +30,15 @@ Arun Kumar Singh<sup>2</sup>, K. Madhava Krishna<sup>1</sup></p>
 - Can lead to conservative behaviour
 - Does not handle Noisy Annotations
 - 
-### We propose …. UAP-BEV
+## We propose …. UAP-BEV
 ![proposal1](/README/imgs/proposal1.png)
 ![proposal2](/README/imgs/proposal2.png)
 ![proposal3](/README/imgs/proposal3.png)
 
 
 
+## Part 1: Augmenting Uncertainty into Distance Estimates
+![Estimate](/README/imgs/estimate.png)
 
 
 

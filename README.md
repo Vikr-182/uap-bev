@@ -9,7 +9,8 @@ Arun Kumar Singh<sup>2</sup>, K. Madhava Krishna<sup>1</sup></p>
 [//]: # (Paste images in this section before the table)
 
 ## Sources of Uncertainity
-![uncertain1][/README/imgs/uncertain1.png]
+![uncertain1](/README/imgs/uncertain1.png)  ![uncertain2](/README/imgs/uncertain2.png)
+
 
 ## Existing Works (Batch Optimization in Planning)
 

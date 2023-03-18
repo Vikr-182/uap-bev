@@ -9,7 +9,17 @@ Arun Kumar Singh<sup>2</sup>, K. Madhava Krishna<sup>1</sup></p>
 [//]: # (Paste images in this section before the table)
 
 ## Sources of Uncertainity
-![uncertain1](/README/imgs/uncertain1.png)  ![uncertain2](/README/imgs/uncertain2.png)
+
+
+<table>
+  <tr>
+    <td><img src="/README/imgs/uncertain1.png" alt="Image 1"></td>
+    <td><img src="/README/imgs/uncertain2.png" alt="Image 2"></td>
+  </tr>
+</table>
+
+## Dealing with Uncertainty - Cost-Volume Approaches
+
 
 
 ## Existing Works (Batch Optimization in Planning)

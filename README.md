@@ -10,6 +10,9 @@ Arun Kumar Singh<sup>2</sup>, K. Madhava Krishna<sup>1</sup></p>
 
 ## Existing Works (Batch Optimization in Planning)
 
+![Tables](/README/imgs/Screenshot from 2023-03-18 10-06-14.png)
+
+
 
 ## Existing Works (BEV Perception + BEV Planning)
 

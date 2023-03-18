@@ -21,6 +21,9 @@ Arun Kumar Singh<sup>2</sup>, K. Madhava Krishna<sup>1</sup></p>
 ## Dealing with Uncertainty - Cost-Volume Approaches
 
 ![uncertain3](/README/imgs/uncertain3.png)
+- Network predicts a Spatio-temporal Cost-Map.
+- Trajectories indexed into the Cost Volume to choose the best trajectory.
+
 
 
 

@@ -7,7 +7,29 @@ Arun Kumar Singh<sup>2</sup>, K. Madhava Krishna<sup>1</sup></p>
 
 
 ## Abstract
+Motion planning over cost maps generated via Birds Eye View (BEV) segmentation has emerged as a prominent approach in autonomous driving. However, the current approaches have two critical gaps. First, the optimization
+process is simplistic and involves just evaluating a fixed set
+of trajectories over the cost map. The trajectory samples are
+not adapted based on their associated cost values. Second, the
+existing cost maps do not account for the uncertainty in the
+cost maps that can arise due to noise in RGB images, BEV
+annotations etc. As a result, these approaches can struggle in
+challenging scenarios where there is abrupt cut-in, stopping,
+overtaking, merging, etc from the neighbouring vehicles.
 
+In this paper, we propose UAP-BEV, a novel approach
+that models the noise in Spatio-Temporal BEV predictions
+to create an uncertainty-aware occupancy grid map. Using
+queries of the distance to the closest occupied cell, we obtain a
+sample estimate of the collision probability of the ego-vehicle.
+Subsequently, our approach uses gradient-free sampling-based
+optimization to compute low-cost trajectories over the cost
+map. Importantly, the sampling distribution is adapted based
+on the optimal cost values of the sampled trajectories. By
+explicitly modelling probabilistic collision avoidance in the
+BEV space, our approach is able to outperform the cost-map-
+based baselines in collision avoidance, route completion, time
+to completion, and smoothness.
 
 ## Scenarios Simulated
 

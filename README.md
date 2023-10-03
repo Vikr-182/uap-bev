@@ -9,6 +9,9 @@
 [K. Madhava Krishna](https://scholar.google.co.in/citations?user=QDuPGHwAAAAJ&hl=en) <sup>1</sup>
 <p align="center">  (1- Robotics Research Center, IIIT Hyderabad,  2- University of Tartu, Estonia)</p>
 
+![updated-teaser-img_page-0001](https://github.com/Vikr-182/uap-bev/assets/44745884/5c9d35e6-eb6f-4b71-8f62-78dd3fa00829)
+
+
 ## 👉 TODO 
 - [ ] Code Release
 - [ ] Add simulation scenarios

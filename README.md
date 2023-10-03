@@ -9,6 +9,12 @@
 [K. Madhava Krishna](https://scholar.google.co.in/citations?user=QDuPGHwAAAAJ&hl=en) <sup>1</sup>
 <p align="center">  (1- Robotics Research Center, IIIT Hyderabad,  2- University of Tartu, Estonia)</p>
 
+## 👉 TODO 
+- [ ] Code Release
+- [ ] Add simulation scenarios
+- [ ] Improve README
+
+Literature review is present in the `literature-review` branch.
 
 ## Abstract
 Motion planning over cost maps generated via Birds Eye View (BEV) segmentation has emerged as a prominent approach in autonomous driving. However, the current approaches have two critical gaps. First, the optimization
